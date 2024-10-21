@@ -40,8 +40,8 @@ from torch import Tensor
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_MAX_TEXT_POSITIONS = 450
-DEFAULT_MAX_SPEECH_POSITIONS = 4000
+DEFAULT_MAX_TEXT_POSITIONS = 1000
+DEFAULT_MAX_SPEECH_POSITIONS = 9000
 
 
 @register_model("t5_transformer")
